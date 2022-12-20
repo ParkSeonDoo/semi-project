@@ -1,0 +1,88 @@
+@charset "UTF-8";
+body{
+	margin: 0;
+	padding: 0;
+}
+.scorelist_main{
+	box-sizing: border-box;
+	width: 100%;
+}
+.scoreinput_table{
+   width:45%;
+   margin:50px auto;
+   padding:20px;
+   box-sizing: border-box;
+}
+.scoreinput_top{
+   width:100%;
+    border-collapse : collapse;
+	border-spacing : 0;
+}
+.scoreinput_topset{
+   box-sizing: border-box;
+}
+.scoreinput_topset tr{
+	border-bottom: 2px dotted #cfd2d4;
+}
+.scoreinput_top th{
+	background-color: #CAF0FF;
+	width: 70px;
+}
+.scoreinput_top th,
+.scoreinput_top td{
+   padding:10px 20px;
+}
+.scoreinput_top td input{
+   border:0;
+}
+.typebtn{
+	margin: 40px 0 10px;
+	display: flex;
+}
+.typebtn label{
+	margin-right: 10px;
+}
+.scoreinput_bottomset{
+   margin-bottom:30px;
+}
+.scoreinput_title,
+.scoreinput_text{
+   	display:flex;
+}
+.scoreinput_title div,
+.scoreinput_text div{
+   flex:1;
+   padding:5px;
+   border-right:0;
+   border-left:0;
+}
+.scoreinput_title div:last-child{
+   border-right:0;
+}
+.scoreinput_text div{
+   border:0;
+}
+.scoreinput_title{
+   text-align:center;
+   font-weight:bold;
+   border-bottom: 2px solid #000;
+   margin-bottom: 10px;
+   padding: 5px 0;
+}
+.scoreinput_text div input{
+   width:80%;
+}
+.scoreinput_btn{
+   text-align:center;
+}
+.scoreinput_btn input{
+	margin: 0 10px; 
+	padding: 0 10px;
+}
+.scoreinput_btn a{
+   display:inline-block;
+   padding:5px 10px;
+   border:1px solid #000000;
+   margin:0 4px;
+   box-sizing: border-box;
+}

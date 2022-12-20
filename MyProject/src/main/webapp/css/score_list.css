@@ -1,0 +1,106 @@
+@charset "UTF-8";
+.scorelist_main{
+	box-sizing: border-box;
+	text-align: center;
+	width: 100%;
+}
+.scorelist_frm{
+	display: inline-block;
+	width: 80%;
+	overflow: hidden;
+	position: relative;
+}
+.scorelist_quickmenu{
+   float: right;
+    width: 190px;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 30%;
+    right: 20px;
+    padding: 35px 10px;
+    box-sizing: border-box;
+    background: linear-gradient(-45deg, #e1eef6 0%, #80d4f6 100%);
+    border-radius: 15px;
+}
+.scorelist_quickmenu label{
+	margin: 10px;
+}
+.scorelist_quickmenu button{
+	margin: 0 15px;
+}
+.scorelist_st{
+	margin: 15px 0;
+	width: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.scorelist_st span{
+	width: 50%;
+	float: left;
+}
+.scorelist_st select{
+	width: 50%;
+	float: left;
+}
+.scorelist_ban{
+	margin: 15px 0;
+	width: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.scorelist_ban span{
+	width: 50%;
+	float: left;
+}
+.scorelist_ban select{
+	width: 50%;
+	float: left;
+}
+.scorelist_se{
+	margin-bottom: 10px;
+	width: 190px;
+	box-sizing: border-box;
+}
+.scorelist_se input{
+	margin: 5px;
+}
+.scorelist_se input:first-child{
+	width: 140px;
+}
+.scorelist_table{
+	border-collapse : collapse;
+	border-spacing : 0;
+	display: inline;
+}
+.scorelist_table tr th{
+	padding: 7px 23px;
+	border-bottom: 2px double #ddd;
+	border-top: 1px double #ddd;
+	background-color: #CAF0FF;
+	box-sizing: border-box;
+}
+.scorelist_table tr td{
+	padding: 7px 23px;
+	border-bottom: 1px dotted #ddd;
+	box-sizing: border-box;
+}
+.scorelist_modify{
+    background-image: linear-gradient(#d6ecfa,#d6ecfa);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: .4s;
+}
+.scorelist_modify:hover{
+   background-size: 100% 100%;
+   color:#0080ff;
+   cursor : pointer;
+}
+.scorelist_ch{
+	position: relative;
+	margin-top: 35px;
+	box-sizing: border-box;
+}
+.exam {
+	display:none;
+}
+

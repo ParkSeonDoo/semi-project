@@ -1,0 +1,112 @@
+@charset "UTF-8";
+a{
+	text-decoration: none;
+	color: #000;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.studentlist_main{
+	box-sizing: border-box;
+	text-align: center;
+	width: 100%;
+}
+.studentlist_frm{
+	display: inline-block;
+	width: 80%;
+	overflow: hidden;
+	position: relative;
+	margin-top: 15px;
+}
+.studentlist_search{
+	float: right;
+    width: 180px;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 30%;
+    right: 20px;
+    padding: 35px 10px;
+    box-sizing: border-box;
+    background: linear-gradient(-45deg, #e1eef6 0%, #80d4f6 100%);
+    border-radius: 15px;
+}
+.studentlist_search button{
+	margin: 0 15px;
+}
+.studentlist_st{
+	margin-bottom: 15px;
+	width: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+	
+}
+.studentlist_st span{
+	width: 50%;
+	float: left;
+}
+.studentlist_st select{
+	width: 50%;
+	float: left;
+}
+.studentlist_ban{
+	margin: 15px 0;
+	width: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.studentlist_ban span{
+	width: 50%;
+	float: left;
+}
+.studentlist_ban select{
+	width: 50%;
+	float: left;
+}
+.studentlist_se{
+	margin-bottom: 10px;
+	width: 170px;
+	box-sizing: border-box;
+}
+.studentlist_se input{
+	margin: 5px;
+}
+.studentlist_se input:first-child{
+	width: 140px;
+}
+.studentlist_table{
+	border-collapse : collapse;
+	border-spacing : 0;
+	display: inline;
+}
+.studentlist_table tr th{
+	padding: 7px 15px;
+	border-bottom: 1px double #ddd;
+	border-top: 1px double #ddd;
+	background-color: #CAF0FF;
+	box-sizing: border-box;
+}
+.studentlist_table tr td{
+	padding: 7px 15px;
+	border-bottom: 2px dotted #ddd;
+	box-sizing: border-box;	
+}
+.studentlist_modify{
+    background-image: linear-gradient(#d6ecfa,#d6ecfa);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: .4s;
+}
+.studentlist_modify:hover{
+   background-size: 100% 100%;
+   color:#0080ff;
+   cursor : pointer;
+}
+.studentlist_ch{
+	position: relative;
+	margin-top: 35px;
+	box-sizing: border-box;
+}
+
+
+

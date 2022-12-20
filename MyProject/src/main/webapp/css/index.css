@@ -1,0 +1,92 @@
+@charset "UTF-8";
+a{
+	text-decoration: none;
+	list-style: none;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	width: 100%;
+	height: 100vh;
+	background-image: url("../image/footer.jpeg");
+	background-repeat: no-repeat;
+	background-position-y: bottom;
+}
+.index_header{
+	width: 100%;
+	background-image: url("../image/logoback.jpg");
+	background-size: cover;
+}
+h2{
+	text-align: center;
+	margin: 45px 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 22px;
+	box-sizing: border-box;
+}
+.logo{
+	float: left;
+	width: 40%
+}
+.logo a{
+	color: #000;
+	font-size: 30px;
+    font-weight: bold;
+}
+.logo a img{
+	width: 70px;
+}
+.menu{
+   float: left;
+   width: 40%;
+   font-weight:bold;
+   margin-top:30px;
+}
+.menu ul{
+	overflow: hidden;
+	list-style: none;
+}
+.menu ul li{
+	float: left;
+	margin-left: 55px;
+}
+.menu ul li a{
+	color: #000;
+	font-size: 18px;
+	list-style: none;
+}
+.menu ul li a:hover{
+   color:#659ad3;
+   cursor : pointer;
+   transition : background-color 50s
+}
+.login_top{
+   margin-top:45px;
+   box-sizing: border-box;
+}
+.login_top a{
+   border:1px solid #ffffff;
+   font-weight: bold;
+   border-radius: 5px;
+   padding:3px;
+   margin:0 5px;
+   background: linear-gradient(-45deg, #33ccff 0%, #D4DFE6 100%);
+   color: #fff;
+   box-sizing: border-box;
+}
+.login_top a:hover{
+   background: radial-gradient(circle, rgba(186,226,228,1) 46%, rgba(142,183,231,1) 85%);
+   cursor : pointer;
+   transition : background-color 50s;
+}
+.section1{
+	width: 100%;
+}
+
